@@ -1,0 +1,17 @@
+/* Password Checker by 3L173 H4CK3R 1337 (@imlegendadi)
+Github - github.com/ImLegendAdi */
+
+.pw-suggestion-box {
+    animation: fadeIn 0.6s cubic-bezier(0.25, 1.3, 0.5, 1)
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}

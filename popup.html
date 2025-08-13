@@ -1,0 +1,90 @@
+  <!-- Password Checker by 3L173 H4CK3R 1337 (@imlegendadi)
+Github - github.com/ImLegendAdi -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: monospace;
+      width: 300px;
+      padding: 10px;
+      overflow: hidden;
+    }
+
+    h3 {
+      color: #39ff14;
+      font-style: italic;
+      margin: 0 0 10px;
+      animation: flicker 1s infinite alternate;
+    }
+
+    p {
+      color: #00ffff;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #39ff14;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .icon-bar {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .icon-bar img {
+      width: 30px;
+      height: 30px;
+      filter: drop-shadow(0 0 5px #ffffff);
+      transition: transform 0.3s, filter 0.3s;
+      cursor: pointer;
+    }
+
+    .icon-bar img:hover {
+      transform: scale(1.2);
+      filter: drop-shadow(0 0 10px #39ff14);
+    }
+
+    /* Glowing Flicker Animation */
+    @keyframes flicker {
+      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14, 0 0 20px #39ff14;
+      }
+      20%, 24%, 55% {
+        text-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Password Checker By ImLegendAdi(3L173 H4CK3R 1337)</h3>
+
+  <p>This utility works automatically on password fields</p>
+
+  <p>Follow me on:</p>
+  
+  <!-- Social Media Icons -->
+  <div class="icon-bar">
+    <a href="https://github.com/ImLegendAdi" target="_blank">
+      <img src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg" alt="GitHub" />
+    </a>
+    <a href="https://linkedin.com/in/ImLegendAdi" target="_blank">
+      <img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" alt="LinkedIn" />
+    </a>
+        <a href="https://ImLegendAdi.netlify.app" target="_blank">
+      <img src="https://www.svgrepo.com/show/209401/internet.svg" alt="LinkedIn" />
+    </a>
+  </div>
+
+</body>
+</html>
